@@ -1,0 +1,10 @@
+.projectCard {
+    border: 1px solid gray;
+    border-radius: 1rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 40rem;
+    height: auto;
+    box-shadow: 3px 5px 4px;
+    background: hsla(240, 50%, 70%, 0.2); 
+}

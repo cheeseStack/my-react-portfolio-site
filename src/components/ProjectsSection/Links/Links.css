@@ -1,0 +1,32 @@
+html {
+    font-size: 16px;
+}
+
+a {
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: hsla(240, 60%, 40%, 0.8);
+}
+
+a:hover {
+    color: hsla(0, 60%, 40%, 0.8);
+    font-size: 1.5rem;
+}
+
+
+.projectLinks {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background: hsla(240, 50%, 100%, 0.4);
+    border-radius: 0.625rem;
+    border: 1px solid hsla(240, 50%, 50%, 0.2);
+}
+
+h3 {
+    font-size: 1.4rem;
+}
