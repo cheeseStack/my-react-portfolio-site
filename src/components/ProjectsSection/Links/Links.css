@@ -12,7 +12,7 @@ a {
 
 a:hover {
     color: hsla(0, 60%, 40%, 0.8);
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 
@@ -28,5 +28,11 @@ a:hover {
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+h2.divideLine {
+    font-weight: 400;
+    line-height: 2rem;
 }

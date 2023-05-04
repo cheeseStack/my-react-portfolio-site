@@ -7,6 +7,9 @@ function Links(props) {
             <div className="siteLink">
                 <h3><a href={props.href} target='_blank'>Check it out</a></h3>
             </div>
+            <div className="divider">
+                <h2 className="divideLine">|</h2>
+            </div>
 
             <div className="githubLink">
                 <h3><a href={props.githubLink} target='_blank'>GitHub link</a></h3>
