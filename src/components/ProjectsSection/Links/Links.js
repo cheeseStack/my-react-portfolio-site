@@ -5,7 +5,7 @@ function Links(props) {
     return (
         <div className="projectLinks">
             <div className="siteLink">
-                <h3><a href={"/resources/projects/"+props.href} target='_blank'>Check it out</a></h3>
+                <h3><a href={props.href} target='_blank'>Check it out</a></h3>
             </div>
 
             <div className="githubLink">

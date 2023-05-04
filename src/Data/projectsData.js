@@ -32,7 +32,7 @@ export const projects = [
         details: "Simple 'Exercise Randomiser' to quickly generate your new workout routines. \nWho needs Joe Wicks?!",
         image: "4_random_exercise.PNG",
         githubLink: "https://github.com/cheeseStack/mixed-messages-codecademy-task",
-        href: "11_mixedMessages/index.html"
+        href: "/resources/projects/11_mixedMessages/index.html"
         
     },
 
@@ -42,7 +42,7 @@ export const projects = [
         details: "Piano Keys Codecademy project using JS to modify the HTML content and CSS of the provided HTML and CSS files.",
         image: "5_piano_keys.PNG",
         githubLink: "https://github.com/cheeseStack/piano-keys-javascript",
-        href: "12_pianoKeys_events/index.html"
+        href: "/resources/projects/12_pianoKeys_events/index.html"
     },
 
     {
@@ -51,7 +51,7 @@ export const projects = [
         details: "Codecademy movie rating web app project, utilising fetch requests with async-and-await functions.",
         image: "6_film_finder.PNG",
         githubLink: "https://github.com/cheeseStack/film-finder-javascript",
-        href: "19_Film_Finder_GET_POST/index.html"
+        href: "/resources/projects/19_Film_Finder_GET_POST/index.html"
     },
 
 ]
