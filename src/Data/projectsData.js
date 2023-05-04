@@ -5,7 +5,7 @@ export const projects = [
         details: "Build a 1-page static site for a fictional cafe from given design brief, using Flexbox for alignment and positioning.",
         image: "1_cafe_flexbox.PNG",
         githubLink: "https://github.com/cheeseStack/css-flexbox-cafe-project",
-        href: "https://cheesestack.net/"
+        href: "/resources/projects/css-flexbox-cafe-project-main/index.html"
     },
     
     {
@@ -14,7 +14,7 @@ export const projects = [
         details: "Fixing and adding CSS flex properties to recreate page from a given brief.",
         image: "2_fix_CSS_Fotomatic.PNG",
         githubLink: "https://github.com/cheeseStack/css-responsive-fotomatic-codecademy",
-        href: "https://cheesestack.net/"
+        href: "/resources/projects/CSS Responsive Project 2 Fotomatic/index.html"
     },
 
     {
@@ -52,6 +52,6 @@ export const projects = [
         image: "6_film_finder.PNG",
         githubLink: "https://github.com/cheeseStack/film-finder-javascript",
         href: "/resources/projects/19_Film_Finder_GET_POST/index.html"
-    },
+    }
 
 ]

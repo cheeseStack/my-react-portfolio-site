@@ -1,0 +1,204 @@
+html {
+
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: hsl(25, 100%, 95%) !important;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* fixed header, 69px high,    logo 50px high, 10px margin-left,    border-bottom 1px solid seashell,  */
+header .container {
+    box-sizingL: border-box;
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+    background-color: black;
+    top: -2px;
+    /* display: flex;
+    flex-flow: row wrap; */
+}
+
+h2 {
+    font-size: 1.8em;
+}
+h4 {
+    font-size: 1.1em;
+}
+
+.logo img {
+    float: left;
+    height: 50px;
+    margin: 11px 0 auto 10px;;
+    
+}
+
+/* set list items to inline  */
+nav ul {
+    float: right;
+    margin-right: 10px;
+}
+nav ul li {
+    display: inline-block;  
+}
+
+nav ul li a {
+    text-decoration: underline;
+    margin: auto 15px;
+    font-size: 1.25em; 
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: hsl(25, 100%, 65%);
+    transition: color 0.1s, text-decoration 0.15s;
+}
+nav ul li a:active {
+    text-decoration: none;
+    color: hsl(25, 100%, 99%);
+    transition: color 0.1s, text-decoration 0.15s;
+}
+
+a {
+    color: seashell;
+}
+
+/*  Set container widths to 1200px and adjust for fixed header */
+.container {
+    position: relative;
+    top: 37px;
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    border-radius: 15px;
+}
+
+
+.banner .container {
+    height: 700px;
+    background-image: url("./resources/img/img-mission-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-mission {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+
+}
+
+.banner-mission h2 , .banner-mission h4 {
+    margin: 10px auto;
+} 
+
+/* Tea of the month */
+
+.month .container {
+    margin-top: -60px;
+    width: 1200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: space-around;
+}
+
+.item img {
+    width: 300px;
+    height: 200px;
+}
+
+.item figcaption:hover {
+    font-size:1.5em;
+    color: hsl(25, 100%, 55%);
+    margin-bottom: -10px;
+    transition: font-size 0.15s;
+}
+
+.item img:hover {
+    box-shadow: 5px 5px 10px;
+}
+
+.month h2 {
+    margin: 0 auto;
+}
+
+figcaption {
+    margin: 10px auto;
+}
+
+
+/* Locations */
+.locations .container {
+    height: 500px;
+    width: 1200px;
+    background-image: url("./resources/img/img-locations-background.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.loc-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.location-wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+
+.location {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 20px;
+    opacity: 0.8;
+}
+
+.loc {
+    margin: 5px auto;
+}
+
+.location:hover {
+    background-color: hsl(359, 90%, 90%);
+    color: black;
+}
+
+/* footer */
+.contact {
+    padding: 0;
+    max-height: 200px;
+    margin: 0 auto;
+}
+
+.copyright {
+    float: left;
+    margin: 0;
+    margin-left: 20px;
+}
